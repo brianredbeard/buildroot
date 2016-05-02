@@ -1,0 +1,7 @@
+config BR2_PACKAGE_OPENRESTY
+	bool "openresty"
+	depends on !BR2_PACKAGE_NGINX
+	help
+	  OpenResty NGINX Variant
+
+	  http://github.com/openresty/openresty
